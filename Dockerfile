@@ -28,4 +28,5 @@ COPY . .
 COPY netrc /root/.netrc
 RUN chmod +x aria.sh
 
+EXPOSE 8080
 CMD ["bash","start.sh"]
